@@ -1,0 +1,306 @@
+{
+  "system_env": {
+    "gravity": 9.80665,
+    "initial_degree": 850,
+    "kinetic_viscosity":2.9e-6
+  },
+  "loop_config": {
+    "max_iteration": 1000,
+    "interval_second": 1,
+    "target_degree": 866.15,
+    "heat_input_persec": [
+      {
+        "time": 0,
+        "energy": 354000
+      },
+      {
+        "time": 500,
+        "energy": 0
+      }
+    ],
+    "pressure_of_pump_persec": [
+      {
+        "time": 0,
+        "pressure": 0.01
+      }
+    ],
+    "system_error": [
+      {
+        "type": "pipe_block",
+        "point_id": 5,
+        "time": 10,
+        "block_rate_of_l_end_area": 0.9,
+        "enable": "False"
+      }
+    ]      
+  },
+  "system_config": {
+    "device_connections": [
+      {
+        "root": 0,
+        "dist": 1
+      },
+      {
+        "root": 1,
+        "dist": 2
+      },
+      {
+        "root": 2,
+        "dist": 3
+      },
+      {
+        "root": 3,
+        "dist": 4
+      },
+      {
+        "root": 4,
+        "dist": 5
+      },
+      {
+        "root": 5,
+        "dist": 6
+      },
+      {
+        "root": 6,
+        "dist": 7
+      },
+      {
+        "root": 7,
+        "dist": 8
+      },
+      {
+        "root": 8,
+        "dist": 9
+      },
+      {
+        "root": 9,
+        "dist": 10
+      },
+      {
+        "root": 10,
+        "dist": 11
+      },
+      {
+        "root": 11,
+        "dist": 12
+      },
+      {
+        "root": 12,
+        "dist": 0
+      }
+    ]
+  },
+  "system_devices": {
+    "core": [{
+      "id": 0,
+      "length":1.6,
+      "dia": "2*sqrt(1.2 *0.2*2.54/100*2.54/100 /pi)",
+      "inlet_x": 0,
+      "inlet_y": 0,
+      "inlet_z": 0,
+      "outlet_x": 0,
+      "outlet_y": 0,
+      "outlet_z": 1.6,
+      "fuel_channel_number": 1064,
+      "channel_length_of_horizontal": "1.2*2.54/100",
+      "channel_length_of_vertical": "0.2*2.54/100",
+      "inside_diamiter":0.737,
+      "heat_conductivity":150,
+      "specific_heat": "0.4*4.2*2.2e6",
+      "thickness": "2*sqrt(1.2 *0.2*2.54/100*2.54/100 /pi) *(0.41/0.26**1/3)"
+    }],
+    "pump": [{
+      "id": 4,
+      "length":0.25,
+      "vertical_length": "9.75*2.54/100",
+      "horizontal_length": "13 * 2.54/100",
+      "dia":"6 * 2.54 / 100 /1.4",
+      "pump_volume": "5.75 * (0.305)**3",
+      "impeller": "11.5 * 2.54/100",
+      "inlet_x": 1.63,
+      "inlet_y": 0,
+      "inlet_z": 3.39,
+      "outlet_x": 1.63,
+      "outlet_y": 0,
+      "outlet_z": 3.39,
+      "heat_conductivity":94,
+      "out_volume_persec_plus": 0.1,
+      "out_volume_persec_minus": 1e-8,
+      "specific_heat": "0.427*8.89e6",
+      "thickness": "1*2.54/100"
+    }],
+    "heat_exchanger": [{
+      "id": 7,
+      "dia": 5e-3,
+      "outside_diamiter": "1 * 2.54 / 100",
+      "inside_diamiter": "0.8 * 2.54 / 100",
+      "length":0.15,
+      "length_of_utube": "173 * 2 / 100",
+      "inlet_x": 3.30,
+      "inlet_y": 0,
+      "inlet_z": 3.39,
+      "outlet_x": 3.48,
+      "outlet_y": 0,
+      "outlet_z": 3.39,
+      "heat_conductivity":94,
+      "utube_number": 156,
+      "specific_heat": "0.427*8.89e6",
+      "thickness": "0.1*2.54/100"
+    }],
+    "pipe": [
+      {
+        "id": 1,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length":0.25,
+        "inlet_x": 0,
+        "inlet_y": 0,
+        "inlet_z": 1.6,
+        "outlet_x": 0,
+        "outlet_y": 0,
+        "outlet_z": 1.85,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 2,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.63,
+        "inlet_x": 0,
+        "inlet_y": 0,
+        "inlet_z": 1.85,
+        "outlet_x": 1.63,
+        "outlet_y": 0,
+        "outlet_z": 1.85,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 3,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.54,
+        "inlet_x": 1.63,
+        "inlet_y": 0,
+        "inlet_z": 1.85,
+        "outlet_x": 1.63,
+        "outlet_y": 0,
+        "outlet_z": 3.39,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 5,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.67,
+        "inlet_x": 1.63,
+        "inlet_y": 0,
+        "inlet_z": 3.39,
+        "outlet_x": 3.3,
+        "outlet_y": 0,
+        "outlet_z": 3.39,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 6,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.67,
+        "inlet_x": 1.63,
+        "inlet_y": 0,
+        "inlet_z": 3.39,
+        "outlet_x": 3.3,
+        "outlet_y": 0,
+        "outlet_z": 3.39,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 8,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.68,
+        "inlet_x": 3.48,
+        "inlet_y": 0,
+        "inlet_z": 3.39,
+        "outlet_x": 3.48,
+        "outlet_y": 0,
+        "outlet_z": 1.71,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 9,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 2.714,
+        "inlet_x": 3.48,
+        "inlet_y": 0,
+        "inlet_z": 1.71,
+        "outlet_x": 0.766,
+        "outlet_y": 0,
+        "outlet_z": 1.71,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 10,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.739,
+        "inlet_x": 0.766,
+        "inlet_y": 0,
+        "inlet_z": 1.71,
+        "outlet_x": 0.737,
+        "outlet_y": 0,
+        "outlet_z": 0,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 11,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 1.739,
+        "inlet_x": 0.766,
+        "inlet_y": 0,
+        "inlet_z": 1.71,
+        "outlet_x": 0.737,
+        "outlet_y": 0,
+        "outlet_z": 0,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      },
+      {
+        "id": 12,
+        "dia": "6 * 2.54 / 100",
+        "outside_diamiter": "8 * 2.54 / 100",
+        "length": 0.737,
+        "inlet_x": 0.737,
+        "inlet_y": 0,
+        "inlet_z": 0,
+        "outlet_x": 0,
+        "outlet_y": 0,
+        "outlet_z": 0,
+        "heat_conductivity":94,
+        "specific_heat": "0.427*8.89e6",
+        "thickness": "1*2.54/100"
+      }
+    ]
+  },
+  "log_config": {
+    "outfile": "."
+  }
+}

@@ -1,0 +1,121 @@
+
+            Elapsed Time(s)      : 0.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 593.0
+            Degree(K)            : 866.15
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 5.304917759383709e-07
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 50.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 593.0000000020668
+            Degree(K)            : 866.1500000020668
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.0004856330926391757
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 100.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 593.2995305481903
+            Degree(K)            : 866.4495305481903
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.0036779080016097125
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 150.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 596.6429682925898
+            Degree(K)            : 869.7929682925898
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.0052015590721102055
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 200.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 601.5035766408249
+            Degree(K)            : 874.6535766408249
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006206106879698749
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 250.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 604.7163488802095
+            Degree(K)            : 877.8663488802094
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006659404582258923
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 300.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 606.2331057907926
+            Degree(K)            : 879.3831057907926
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006815560502428942
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 350.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 606.8479912893325
+            Degree(K)            : 879.9979912893325
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006856740244574528
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 400.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 607.084764880197
+            Degree(K)            : 880.234764880197
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006862569730594071
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 450.0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 607.1808171359036
+            Degree(K)            : 880.3308171359035
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.006860783724115083
+            --------------------------------------------
+
+        

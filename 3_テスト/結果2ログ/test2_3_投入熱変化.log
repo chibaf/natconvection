@@ -1,0 +1,131 @@
+
+            Elapsed Time(s)      : 0
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 576.85
+            Degree(K)            : 850.0
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 2.6419987089745364e-07
+            HEX Heat Energy Wall : -0.0
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 100
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 577.6750712257573
+            Degree(K)            : 850.8250712257573
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.002189818713157592
+            HEX Heat Energy Wall : -5273.136267703362
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 200
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 587.4141415591372
+            Degree(K)            : 860.5641415591372
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.0032866794350938436
+            HEX Heat Energy Wall : -227040.56150335586
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 300
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 590.6041765859787
+            Degree(K)            : 863.7541765859787
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.003415162467222825
+            HEX Heat Energy Wall : -333169.007876041
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 400
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 590.9522775243457
+            Degree(K)            : 864.1022775243457
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.003409327581363713
+            HEX Heat Energy Wall : -345874.77193717536
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 500
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 591.0254989770921
+            Degree(K)            : 864.175498977092
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.00340799590951128
+            HEX Heat Energy Wall : -348760.45771511685
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 600
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 588.3313259024969
+            Degree(K)            : 861.4813259024969
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.002248588489571949
+            HEX Heat Energy Wall : -198735.45958417252
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 700
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 584.7975139258101
+            Degree(K)            : 857.9475139258101
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.0015573094670322273
+            HEX Heat Energy Wall : -99233.07730503303
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 800
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 582.7375597372297
+            Degree(K)            : 855.8875597372297
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.00116812627691272
+            HEX Heat Energy Wall : -56350.8660318287
+            --------------------------------------------
+
+        
+            Elapsed Time(s)      : 900
+            Segment After Pump Info
+            Diamter              : 0.1524
+            Length               : 1.67
+            Kinetic Viscosity    : 2.9e-06
+            Degree(C)            : 581.4666491844262
+            Degree(K)            : 854.6166491844261
+            Pressure Pump Head   : 0.01
+            Flow Rate            : 0.000926430419760884
+            HEX Heat Energy Wall : -35475.45445067321
+            --------------------------------------------
+
+        

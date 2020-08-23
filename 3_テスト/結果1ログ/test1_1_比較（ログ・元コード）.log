@@ -1,0 +1,179 @@
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           593.0
+  Pressure Pump Head    0.01
+  flow rate             2.2271818746259724e-07
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1132: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(311)
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1136: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(312)
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1139: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(313)
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +593.07  +593.07  +593.07  +593.07
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           593.0000000000683
+  Pressure Pump Head    0.01
+  flow rate             2.2098234181076282e-05
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1113: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(311)
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1118: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(312)
+c:\Users\hiroyuki.tsukamoto\source\repos\MSR\TABLE_TOP_LOOP\dynamics.py:1122: MatplotlibDeprecationWarning: Adding an axes using the same arguments as a previous axes currently reuses the earlier instance.  In a future version, a new instance will always be created and returned.  Meanwhile, this warning can be suppressed, and the future behavior ensured, by passing a unique label to each axes instance.
+  plt.subplot(313)
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +598.20  +598.20  +598.20  +598.20
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           593.1506520137405
+  Pressure Pump Head    0.01
+  flow rate             0.001366602107172185
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +602.60  +602.60  +602.60  +602.60
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           595.4290532148798
+  Pressure Pump Head    0.01
+  flow rate             0.0020325932363784863
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +605.66  +605.66  +605.66  +605.66
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           599.7992455835099
+  Pressure Pump Head    0.01
+  flow rate             0.002619822737948244
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +607.39  +607.39  +607.39  +607.39
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           603.7472236756588
+  Pressure Pump Head    0.01
+  flow rate             0.0030011427343926054
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +608.08  +608.08  +608.08  +608.08
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           606.1232549958114
+  Pressure Pump Head    0.01
+  flow rate             0.003187933001784957
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +608.25  +608.25  +608.25  +608.25
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           607.2487570399168
+  Pressure Pump Head    0.01
+  flow rate             0.00326196869609799
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +608.23  +608.23  +608.23  +608.23
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           607.7035700858218
+  Pressure Pump Head    0.01
+  flow rate             0.0032856796129590417
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** *** 
+TdegC_seg_salt [0,4,7,12] +608.17  +608.17  +608.17  +608.17
+>>
+>>
+>>
+*********  Verification  Verification  Verification  ************
+segment=      [I_PUMP+1] 5
+  Diameter_seg[I_PUMP+1] 0.1524
+  Length_seg  [I_PUMP+1] 0.835
+  kinetic_viscosity     2.9e-06
+  TdegC after pump           607.8637088848589
+  Pressure Pump Head    0.01
+  flow rate             0.003290713029304134
+>>
+>>
+*********  Verification  Verification  Verification  ************
+
+ *** *** ***
+TdegC_seg_salt [0,4,7,12] +608.12  +608.12  +608.12  +608.12

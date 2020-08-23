@@ -1,0 +1,156 @@
+<html><head></head><body><link rel="stylesheet" type="text/css" href="chrome-extension://ckkdlimhmcjmikdlpkmbgfkaikojcbjk/themes/github.css" id="_theme"><div id="_html" class="markdown-body"><h1 id="熔融塩ループ計算"><a class="anchor" name="熔融塩ループ計算" href="#熔融塩ループ計算"><span class="octicon octicon-link"></span></a>熔融塩ループ計算</h1>
+<h2 id="リポジトリ概要"><a class="anchor" name="リポジトリ概要" href="#リポジトリ概要"><span class="octicon octicon-link"></span></a>リポジトリ概要</h2>
+<p>熔融塩ループの正常系、異常系をシミュレートします。</p>
+<h2 id="環境構築"><a class="anchor" name="環境構築" href="#環境構築"><span class="octicon octicon-link"></span></a>環境構築</h2>
+<h3 id="事前準備"><a class="anchor" name="事前準備" href="#事前準備"><span class="octicon octicon-link"></span></a>事前準備</h3>
+<p>pythonおよびpipenvのコマンド実行用にパスを通しておく。</p>
+<ul>
+<li>pipenv…python環境とライブラリの統合管理ツール。</li>
+</ul>
+<pre><code>python導入後に以下実行でインストール
+pip3 install --user pipenv</code></pre><ul>
+<li>導入の確認<pre><code>&gt; python --version
+Python 3.7.4
+&gt; pipenv --version
+pipenv, version 2018.11.26</code></pre></li>
+</ul>
+<h3 id="開発環境インストール"><a class="anchor" name="開発環境インストール" href="#開発環境インストール"><span class="octicon octicon-link"></span></a>開発環境インストール</h3>
+<ul>
+<li>作業用の任意のディレクトリで以下を実行</li>
+</ul>
+<p>shell(mac等)の場合</p>
+<pre><code>PIPENV_VENV_IN_PROJECT=true pipenv sync</code></pre><p>command prompt(windows)の場合</p>
+<pre><code>set PIPENV_VENV_IN_PROJECT=true
+pipenv sync</code></pre><h2 id="パラメータファイル設定"><a class="anchor" name="パラメータファイル設定" href="#パラメータファイル設定"><span class="octicon octicon-link"></span></a>パラメータファイル設定</h2>
+<h3 id="値には数式を利用可能。その場合「」でくくって文字列として設定する。python標準関数の他、numpyの「pi」「sqrt」は使用可能。"><a class="anchor" name="値には数式を利用可能。その場合「」でくくって文字列として設定する。python標準関数の他、numpyの「pi」「sqrt」は使用可能。" href="#値には数式を利用可能。その場合「」でくくって文字列として設定する。python標準関数の他、numpyの「pi」「sqrt」は使用可能。"><span class="octicon octicon-link"></span></a>値には数式を利用可能。その場合「""」でくくって文字列として設定する。python標準関数の他、numpyの「pi」「sqrt」は使用可能。</h3>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>子項目</th>
+<th>設定内容</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>system_env</td>
+<td></td>
+<td>システム環境パラメータ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>gravity</td>
+<td>重力定数</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>initial_degree</td>
+<td>系内初期温度</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>kinetic_viscosity</td>
+<td>動粘度</td>
+<td></td>
+</tr>
+<tr>
+<td>loop_config</td>
+<td></td>
+<td>ループパラメータ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>max_iteration</td>
+<td>最大ループ回数</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>interval_second</td>
+<td>1ループあたりの経過時間（秒）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>target_degree</td>
+<td>到達温度</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>heat_input_persec</td>
+<td>秒あたりの投入熱量を指定<br>[time: 投入開始時刻 energy: 投入熱量]</td>
+<td>配列で複数設定可、<br>次の値を設定するまでは毎秒投入され続ける</td>
+</tr>
+<tr>
+<td></td>
+<td>pressure_of_pump_persec</td>
+<td>秒あたりのポンプ圧力を指定<br>[time: 開始時刻 energy: ポンプ圧力]</td>
+<td>配列で複数設定可、<br>次の値を設定するまでは毎秒投入され続ける</td>
+</tr>
+<tr>
+<td></td>
+<td>system_error</td>
+<td>異常発生の設定を行う。</td>
+<td>type:異常の種類。現在は閉塞（pipe_block）のみ。<br>point_id:異常発生個所（device_idを指定）<br>time:異常発生時間<br>block_rate_of_l_end_area:閉塞する面積の割合。閉塞の場合のみ指定。<br>enable:有効化。設定を消さずに異常発生を無効化したい場合はFalseを指定する。</td>
+</tr>
+<tr>
+<td>system_config</td>
+<td></td>
+<td>システム設定パラメータ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>device_connections</td>
+<td>デバイスの接続情報。<br>root:接続元デバイスid<br>dist:接続先デバイスid</td>
+<td>配列で指定し、ループになるように設定する必要がある。</td>
+</tr>
+<tr>
+<td>system_devices</td>
+<td></td>
+<td>システム構成デバイスパラメータ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>core</td>
+<td>炉心</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>pump</td>
+<td>ポンプ</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>heat_exchanger</td>
+<td>熱交換器</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>pipe</td>
+<td>パイプ</td>
+<td></td>
+</tr>
+<tr>
+<td>log_config</td>
+<td></td>
+<td>ログ動作設定</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>outfile</td>
+<td>ログファイル保存先フォルダ</td>
+<td>デフォルトでは実行ディレクトリに保存</td>
+</tr>
+</tbody></table>
+</div></body></html>
